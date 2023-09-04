@@ -19,18 +19,34 @@
   /* CSS styles for mobile devices */
   .saw {
     width: 100%!important; /* Adjust font size for mobile */
+    background-image: linear-gradient(#0b0a0a, #fbfbfb)!important;
   }
   .comming-soon {
           margin-right: 0px!important;
+          color:#0c0c0c!important;
 
   }
+
+  .soon{
+    color:#0c0c0c!important;
+  }
+
+  .num{
+    color:#0c0c0c!important;
+  }
+
   .count{
     margin-right: 0px!important;
+    color:#0c0c0c!important;
+
   }
+
+ 
   .razam{
     margin-right: 0px!important;
 
     display: inline !important;
+    margin-bottom: 100px!important;
   }
 }
 
@@ -63,30 +79,30 @@
     ;
     ">
       <div class="w-full text-center my-auto">
-        <h1 data-aos="fade-down" data-aos-duration="2500" class=" razam font-bold text-5xl  text-amber-500 mb-10 md:text-right text-white " style="margin-right: 100px; display: none">Razam.</h1>
-        <h6 data-aos="fade-down" data-aos-duration="2500" class="comming-soon font-Montserrat font-bold uppercase text-4xl md:text-5xl lg:text-6xl mb-14 md:-mr-0 text-white md:text-right" style="margin-right: 100px;">Coming <span  class="text-white/70 md:-mr-0">soon</span></h6>
+        <h1 data-aos="fade-down" data-aos-duration="2500" class=" razam  font-bold text-5xl  text-amber-500 mb-10 md:text-right text-white " style="margin-right: 100px; display: none"><img src="assets/img/Razam.png"></h1>
+        <h6 data-aos="fade-down" data-aos-duration="2500" class="comming-soon font-Montserrat font-bold uppercase text-4xl md:text-5xl lg:text-6xl mb-14 md:-mr-0 text-white md:text-right" style="margin-right: 100px;">Coming <span  class="soon text-white/70 md:-mr-0">soon</span></h6>
 
         
         <!-- Count down -->
-        <div class="w-full text-left flex mb-10" >
+        <div class="count-div w-full text-left flex mb-10" >
           <ul data-aos="fade-up" data-aos-duration="2500" style="margin-right: 100px;" class="count w-full flex place-content-center md:place-content-end gap-5 mx-auto text-gray-50">        
             <li>
-              <div class="font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdD">00</div>
+              <div class="num font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdD">00</div>
               <p class="text-center text-xs mt-2">Days</p>
             </li>
 
             <li>
-              <div class="font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdH">00</div>
+              <div class=" num font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdH">00</div>
               <p class="text-center text-xs mt-2">Hours</p>
             </li>
 
             <li>
-              <div class="font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdM">00</div>
+              <div class=" num font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdM">00</div>
               <p class="text-center text-xs mt-2">Minutes</p>
             </li>
 
             <li>
-              <div class="font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdS">00</div>
+              <div class="num font-bold text-white rounded-full border-dotted border-gray-700 border-4 flex items-center justify-center text-2xl lg:text-4xl h-16 lg:h-24 w-16 lg:w-24" id="cdS">00</div>
               <p class="text-center text-xs mt-2">Seconds</p>
             </li>
 
